@@ -1,0 +1,147 @@
+.hero{
+    background-color: rgb(83, 83, 86);
+}
+.navbar{
+    display: flex;
+    background-color: rgb(86, 91, 94);
+}
+.navbar-item{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.navbar-item:hover{
+    background-color: #5e88e4;
+}
+
+#myname{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+}
+#name{
+    color: white; 
+    font-weight: bolder;   
+}
+.about{
+    background-color: rgb(74, 74, 78);
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.me{
+    border-radius: 100%;
+    padding: 10px;
+    padding: 10px;
+
+}
+#about{
+    font-weight: bolder;
+}
+.text{
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.skill{
+    width: 40%;
+    display: grid;
+    row-gap: 3rem;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 5em;
+    left:30%
+}
+
+.skill h2{
+    color: white;
+    font-size: 2rem;
+}
+.skills h1{
+    color: rgb(212, 236, 242);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.skill p{
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    /* padding-right: 40; */
+}
+.skills{
+    height: 900px;
+    background-color: rgb(77, 77, 81);
+}
+
+.projects{
+    background-color: rgb(83, 83, 86);
+    height: 550px;
+}
+#pro{
+    background-color: rgb(83, 83, 86);
+}
+.heading-projects{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+}
+.contact{
+    background-color: rgb(68, 68, 70);
+    color: white;
+}
+.bottom-container{
+    background-color: rgb(74, 74, 76);
+    margin-bottom: 0;
+    height: 30px;
+}
+.copy-right{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+@media(max-width:800px){
+    .about{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .hero img{
+        padding-left: 80px;
+    }
+    .projects{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .skills{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .skills img{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+    }
+    .bottom-container{
+        height: 100%;
+    }
+}
